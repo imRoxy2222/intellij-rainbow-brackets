@@ -1,11 +1,13 @@
 <idea-plugin require-restart="true">
-    <id>izhangzhihao.rainbow.brackets.lite</id>
-    <name>Rainbow Brackets Lite - Free and OpenSource</name>
+    <id>izhangzhihao.rainbow.brackets.lite.modify</id>
+    <name>Rainbow Brackets Lite Modify</name>
     <vendor email="izhangzhihao@hotmail.com" url="https://github.com/izhangzhihao">izhangzhihao</vendor>
 
     <description><![CDATA[
         <strong>🌈Rainbow Brackets Lite for IntelliJ based IDEs/Android Studio/HUAWEI DevEco Studio</strong>
         <br/>
+        <p>个人修改, 支持缩进线高亮, 只在idea2025.1, idea2025.3.2测试</p>
+		<p>基于大佬的lite版的1.1.0版本修改, 全程使用Gpt5.3 Codex</p>
 
         <p>Supported languages:</p>
         <p>Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScript, Erlang, Go, Groovy, Ruby,
