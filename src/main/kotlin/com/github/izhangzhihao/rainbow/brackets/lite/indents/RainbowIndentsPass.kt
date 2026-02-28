@@ -455,6 +455,8 @@ class RainbowIndentsPass internal constructor(
     }
 
     private fun repaintForNonStructuralEdit(event: DocumentEvent) {
+        // Avoid calling logicalPositionToXY during bulk updates – it is forbidden and throws.
+        if (document.isInBulkUpdate) return
         // Keep repaint scope local for typing performance while preserving guide continuity.
         val startOffset = event.offset.coerceIn(0, document.textLength)
         val rawEndOffset = event.offset + maxOf(event.newLength, 1)

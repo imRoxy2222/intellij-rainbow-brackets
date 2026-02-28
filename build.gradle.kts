@@ -66,9 +66,9 @@ java {
 
 intellijPlatform {
     pluginConfiguration {
-        name = "intellij-rainbow-brackets-lite"
+        name = "rainbow-brackets-lite-enhance"
         ideaVersion {
-            sinceBuild = "251"
+            sinceBuild = "253"
             untilBuild = provider { null }
         }
     }

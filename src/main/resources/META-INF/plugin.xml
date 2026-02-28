@@ -1,20 +1,14 @@
 <idea-plugin require-restart="true">
-    <id>izhangzhihao.rainbow.brackets.lite.modify</id>
-    <name>Rainbow Brackets Lite Modify</name>
-    <vendor email="izhangzhihao@hotmail.com" url="https://github.com/izhangzhihao">izhangzhihao</vendor>
+    <id>imRoxy2222.rainbow.brackets.lite.enhance</id>
+    <name>Rainbow Brackets Lite Enhance</name>
+    <vendor email="frank2222@foxmail.com" url="https://github.com/imRoxy2222">izhangzhihao,Frank2222</vendor>
 
     <description><![CDATA[
-        <strong>🌈Rainbow Brackets Lite for IntelliJ based IDEs/Android Studio/HUAWEI DevEco Studio</strong>
-        <br/>
-        <p>个人修改, 支持缩进线高亮, 只在idea2025.1, idea2025.3.2测试</p>
-		<p>基于大佬的lite版的1.1.0版本修改, 全程使用Gpt5.3 Codex</p>
+        <p>个人修改, 支持缩进线高亮</p>
+		<p>基于大佬的lite版的1.1.0版本修改, 全程使用Ai</p>
 
-        <p>Supported languages:</p>
-        <p>Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScript, Erlang, Go, Groovy, Ruby,
-            Elixir, ObjectiveC, PHP, HTML, XML, SQL, Apex language, Dart, Pug/Jade, Bash, Vue.js, GLSL(the OpenGL Shading Language), Go Template, C++, C...</p>
         <br/>
-        <p>NOTE: If you need C# or C++ support in Rider IDE, these features are only available in the paid version. The Lite version does not include them. Upgrade to the paid version for full functionality</p>
-        <br/>
+
         <p>
             <img src="https://raw.githubusercontent.com/izhangzhihao/intellij-rainbow-brackets/2020.2/screenshots/with-java.png"
                  border="0" width="500" height="205" alt="with-java"/></p>
@@ -42,23 +36,20 @@
         ]]></description>
 
     <change-notes><![CDATA[
-        <p>1.1.0</p>
+        <p>0.0.2</p>
         <ul>
-            <li>Compatiable with 2023.3</li>
+            <li>延迟初始化解决idea插件报错</li>
+            <li>检测bulk update状态解决报错</li>
         </ul>
-        <p>1.0.1</p>
+        <p>0.0.1</p>
         <ul>
-            <li>Bug fix and code refactor</li>
-        </ul>
-        <p>1.0.0</p>
-        <ul>
-            <li>Initial release for completely free lite version</li>
+            <li>增加缩进线高亮</li>
         </ul>
         ]]>
     </change-notes>
 
     <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="251"/>
+    <idea-version since-build="253"/>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
