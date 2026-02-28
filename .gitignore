@@ -12,3 +12,4 @@ java_pid*
 .intellijPlatform/
 bin/
 *.log
+.vscode/
